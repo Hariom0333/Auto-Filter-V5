@@ -48,14 +48,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mdisk_supports')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001809406804)
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001461528355)
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001809406804')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001461528355')
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/linkzmovie')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/mdisk_supports')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001533475132)
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001533475132)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001533475132')
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', '-1001533475132')
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
